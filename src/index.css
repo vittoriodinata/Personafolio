@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-black text-white m-0;
+    font-family: Impact, "Arial Black", sans-serif;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, p {
+    @apply m-0 p-0;
+  }
+}
+
+@layer utilities {
+  .persona-text-shadow {
+    text-shadow: 5px 5px 0 #800000;
+  }
+
+  .persona-outline {
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  }
+
+  .persona-bar-shadow {
+    box-shadow: 3px 3px 0px #000;
+  }
+}
