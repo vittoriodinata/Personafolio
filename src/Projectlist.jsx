@@ -6,7 +6,7 @@ import Img1 from "./assets/sudoku.png";
 import Img2 from "./assets/poker.png";
 import Img3 from "./assets/unicomp.png";
 import Img4 from "./assets/music.png";
-import Img5 from "./assets/afib.png";
+import Img5 from "./assets/Afib.png";
 
 export default function ProjectsList() {
   const projects = [
